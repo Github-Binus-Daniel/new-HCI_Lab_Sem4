@@ -1,3 +1,4 @@
+/* Universal */
 head{
     margin: 0px;
     
@@ -5,4 +6,34 @@ head{
 body{
     margin: 0px;
 
+}
+footer{
+    background-color: rgb(67, 116, 185);
+    
+    padding: 16px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Navbar  */
+nav{
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(67, 116, 185);
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav div{
+    width: 100%;
+}
+nav div:hover{
+    background-color: cornflowerblue;
+}
+nav a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
 }
