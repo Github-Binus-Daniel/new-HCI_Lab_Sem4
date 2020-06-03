@@ -1,15 +1,17 @@
 /* Universal */
+html{
+    text-align: center;
+}
+
 head{
     margin: 0px;
     
 }
 body{
     margin: 0px;
-
 }
 footer{
     background-color: rgb(67, 116, 185);
-    
     padding: 16px;
     position: fixed;
     bottom: 0px;
