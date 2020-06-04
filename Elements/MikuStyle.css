@@ -14,7 +14,8 @@ body{
 footer{
     background-color: rgb(67, 116, 185);
     padding: 16px;
-    position: fixed;
+    box-sizing: border-box;
+    position: relative;
     bottom: 0px;
     width: 100%;
 }
@@ -39,7 +40,7 @@ nav{
 
     overflow: hidden;
     height: 50px;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 nav div{
     position: relative;
@@ -55,45 +56,34 @@ nav a{
     color: black;
 }
 
-/* Buy Ticket */
+/* Content */
+.content{
+    display: block;
+    z-index: -1;
+    animation: slideTop 1s;
+    box-shadow: white 0px 0px 0px;
 
-form{
-    text-align: center;
-}
-label{
-    text-align: right;
-    position: absolute;
-    right: 55%;
-}
-form div input{
-    left: 55%;
-    position: absolute;
-}
-form div.radio{
-    left: 55%;
-    position: absolute;
-    
-}
-form div input.radio{
-    position: initial;
-    
-}
-form div select{
-    left: 55%;
-    position: absolute;
-    width: 147px;   
-}
-form div#error{
-    color: red;
-}
 
+}
 /* Animation */
+
+@keyframes slideTop {
+    0%   {transform: translateY(-355px); max-height: 0px;}
+    100% {transform: translateY(0px); max-height: 355px;}
+}
+
+@keyframes textGlowRed {
+    0%   {text-shadow: red 0px 0px 0px;}
+    100% {text-shadow: red 0px 0px 3px;}
+}
+
 
 /* 800 Windows CSS */
 @media screen and (max-width: 800px) {
     nav{
         display: block;
         height: 250px;
+
     }
     nav div{
         text-align: left;

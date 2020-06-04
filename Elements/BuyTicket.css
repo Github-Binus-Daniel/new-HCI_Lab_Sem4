@@ -1,0 +1,36 @@
+/* Buy Ticket */
+
+form{
+    text-align: center;
+}
+label{
+    text-align: right;
+    position: absolute;
+    right: 55%;
+}
+form div input{
+    left: 55%;
+    position: absolute;
+}
+form div.radio{
+    left: 55%;
+    position: absolute;
+    
+}
+form div input.radio{
+    position: initial;
+    
+}
+form div select{
+    left: 55%;
+    position: absolute;
+    width: 147px;   
+}
+form div#error{
+    color: red;
+}
+
+@keyframes slideTop {
+    0%   {transform: translateY(-355px); max-height: 0px;}
+    100% {transform: translateY(0px); max-height: 355px;}
+}
