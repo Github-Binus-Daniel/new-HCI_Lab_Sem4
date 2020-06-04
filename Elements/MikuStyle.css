@@ -1,6 +1,7 @@
 /* Universal */
 html{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 head{
@@ -17,17 +18,31 @@ footer{
     bottom: 0px;
     width: 100%;
 }
+div{
+    transition-duration: 0.5s;
+}
 
-/* Navbar  */
+
+
+/* Header  */
+header img{
+    width: 100%;
+    display: block;
+}
 nav{
     display: inline-flex;
     width: 100%;
+
     background-color: rgb(67, 116, 185);
     position: relative;
-    text-align: center;
     box-sizing: border-box;
+
+    overflow: hidden;
+    height: 50px;
+    transition-duration: 1s;
 }
 nav div{
+    position: relative;
     width: 100%;
 }
 nav div:hover{
@@ -38,4 +53,49 @@ nav a{
     padding: 16px;
     text-decoration: none;
     color: black;
+}
+
+/* Buy Ticket */
+
+form{
+    text-align: center;
+}
+label{
+    text-align: right;
+    position: absolute;
+    right: 55%;
+}
+form div input{
+    left: 55%;
+    position: absolute;
+}
+form div.radio{
+    left: 55%;
+    position: absolute;
+    
+}
+form div input.radio{
+    position: initial;
+    
+}
+form div select{
+    left: 55%;
+    position: absolute;
+    width: 147px;   
+}
+form div#error{
+    color: red;
+}
+
+/* Animation */
+
+/* 800 Windows CSS */
+@media screen and (max-width: 800px) {
+    nav{
+        display: block;
+        height: 250px;
+    }
+    nav div{
+        text-align: left;
+    }
 }

@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buy Ticket</title>
     <link rel="stylesheet" href="Elements/MikuStyle.css">
+    <script src="Elements/BuyTicketValid.js"></script>
     
     <header>
-
+        <img src="Elements/Header.png">
     </header>
 
     <nav>
@@ -18,8 +19,58 @@
         <div><a href="Concert Gallery.html">Concert Gallery</a></div>
     </nav>
 </head>
-<body>
-    
+<body onload="firstLoad()">
+    <form id="buyTicket">
+        <h1>Purchase Ticket</h1>
+        <div>
+            <label>Name</label>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label>Ticket Type</label>
+            <select id="type">
+                <option value="" disabled selected hidden>Select Ticket Type</option>
+                <option value="platinum">Platinum</option>
+                <option value="gold">Gold</option>
+                <option value="silver">Silver</option>
+                <option value="bronze">Bronze</option>
+            </select>
+            <br>
+            <br>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" id="email">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label>Phone</label>
+            <input type="number" id="phone">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label>Address</label>
+            <input type="text" id="address">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label>Terms and services agreement</label>
+            <input type="checkbox" id="term">
+        </div>
+        <br>
+        <br>
+        <div id="error"></div>
+        <br>
+        <br>
+        <input value="Reset" type="reset" onclick="resetBtn()">
+        <input value="Submit" type="button" onclick="submitBtn()">
+        
+    </form>
 </body>
 <footer>
     "HCI Group 2 © 2020 - Miku Expo"
