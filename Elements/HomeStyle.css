@@ -1,0 +1,35 @@
+
+/* Image Coursel */
+.NextBefore
+{
+    background-color: rgb(67, 116, 185);
+    color: whitesmoke;
+    font-family: comic sans ms;
+    border-radius: 60%;
+    border-width: 0cm;
+    font-size: 30pt;
+    opacity: 0.5;
+}
+
+.NextBefore:hover
+{
+    opacity: 1;
+}
+
+#slider
+{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.slideImages
+{
+    position: relative;
+}
+
+.LineImage
+{
+    display: block;
+    float: left;
+}
