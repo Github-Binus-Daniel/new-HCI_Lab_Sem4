@@ -8,29 +8,22 @@ label{
     position: absolute;
     right: 55%;
 }
-form div input{
+select, input{
+    width: 25%;
+}
+
+input[type=reset],input[type=button]{
+    border-radius: 3px;
+    width: 10%;
+}
+input[type=checkbox]{
+    width: initial;
+}
+
+form div input, form div select{
     left: 55%;
     position: absolute;
-}
-form div.radio{
-    left: 55%;
-    position: absolute;
-    
-}
-form div input.radio{
-    position: initial;
-    
-}
-form div select{
-    left: 55%;
-    position: absolute;
-    width: 147px;   
 }
 form div#error{
     color: red;
-}
-
-@keyframes slideTop {
-    0%   {transform: translateY(-355px); max-height: 0px;}
-    100% {transform: translateY(0px); max-height: 355px;}
 }

@@ -1,28 +1,27 @@
 /* Universal */
-html{
+*{
+    margin: 0px;
+    padding: 0px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-head{
-    margin: 0px;
-    
-}
-body{
-    margin: 0px;
+html, body{
+    position: relative;
+    height: 100%;
+    z-index: -2;
 }
 footer{
     background-color: rgb(67, 116, 185);
-    padding: 16px;
-    box-sizing: border-box;
-    position: relative;
+    padding: 16px 0px;
+
+
+    position: sticky;
     bottom: 0px;
     width: 100%;
 }
 div{
     transition-duration: 0.5s;
 }
-
 
 
 /* Header  */
@@ -59,17 +58,15 @@ nav a{
 /* Content */
 .content{
     display: block;
+    position: relative;
     z-index: -1;
-    animation: slideTop 1s;
-    box-shadow: white 0px 0px 0px;
-
-
+    animation: slideTop .75s ease;
 }
 /* Animation */
 
 @keyframes slideTop {
-    0%   {transform: translateY(-355px); max-height: 0px;}
-    100% {transform: translateY(0px); max-height: 355px;}
+    0%   {transform: translateY(-100%);}
+    100% {transform: translateY(0px);}
 }
 
 @keyframes textGlowRed {
