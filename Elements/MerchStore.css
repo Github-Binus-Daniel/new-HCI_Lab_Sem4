@@ -1,0 +1,33 @@
+.itemlist{
+    align-content: space-between;
+    display: flex;
+    justify-content: center;
+}
+.itemlist div{
+    box-shadow: 0px 2px 2px 2px lightgrey;
+    margin: 15px;
+    width: 205px;
+}
+.itemlist div:hover{
+    transition: 300ms;
+    box-shadow: 0px 2px 10px 10px grey;
+    margin: 15px;
+    width: 205px;
+}
+.itemlist img{
+    height: 205px;
+}
+.itemlist input{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 25px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+.itemlist input[type=button]:active{
+    background-color: darkred;
+    transition-duration: .05s;
+}
