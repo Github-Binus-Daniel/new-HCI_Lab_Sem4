@@ -9,15 +9,35 @@ label{
     right: 55%;
 }
 select, input{
+    border-color: cornflowerblue;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 1px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
     width: 25%;
 }
-
 input[type=reset],input[type=button]{
-    border-radius: 3px;
+    border-top: revert;
+    border-left: revert;
+    border-right: revert;
+
+    -webkit-appearance: revert;
+    -moz-appearance: revert;
+
     width: 10%;
 }
 input[type=checkbox]{
     width: initial;
+    border-top: revert;
+    border-left: revert;
+    border-right: revert;
+
+    -webkit-appearance: revert;
+    -moz-appearance: revert;
 }
 
 form div input, form div select{
@@ -25,5 +45,6 @@ form div input, form div select{
     position: absolute;
 }
 form div#error{
+    transition-duration: .5s;
     color: red;
 }

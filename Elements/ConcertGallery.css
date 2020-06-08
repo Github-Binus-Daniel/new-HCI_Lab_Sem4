@@ -1,0 +1,40 @@
+.concertGallery{
+
+}
+.concertGallery div{
+    align-self: center;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 5px;
+    border: black solid 1px;
+
+    position: relative;
+    overflow: hidden;
+}
+.concertGallery img{
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+.concertGallery span{
+    display: block;
+    margin: auto;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+
+
+
+    opacity: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 1s;
+
+    transform: translateY(100%);
+}
+.concertGallery div:hover span{
+    background-color: black;
+    opacity: 100%;
+    
+    transform: translateY(0%);
+}

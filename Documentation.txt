@@ -1,0 +1,7 @@
+Animation :
+
+Hover Animation in Concert Gallery html to see the caption
+Added Animation when moving between html
+Animation when hovering item in Merch Store
+Animation when clicking Buy button in Merch Store
+Animation when switching from desktop mode to phone mode
