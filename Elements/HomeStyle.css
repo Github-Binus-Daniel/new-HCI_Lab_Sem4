@@ -9,6 +9,10 @@
     border-width: 0cm;
     font-size: 30pt;
     opacity: 0.5;
+    
+    height: 60px;
+    width: 60px;
+    scale: 50%;
 }
 
 .NextBefore:hover

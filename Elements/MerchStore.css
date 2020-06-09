@@ -4,13 +4,13 @@
     justify-content: center;
 }
 .itemlist div{
-    box-shadow: 0px 2px 2px 2px lightgrey;
+    box-shadow: 0px 0px 2px 2px lightgrey;
     margin: 15px;
     width: 205px;
 }
 .itemlist div:hover{
     transition: 300ms;
-    box-shadow: 0px 2px 10px 10px grey;
+    box-shadow: 0px 0px 10px 10px grey;
     margin: 15px;
     width: 205px;
 }
