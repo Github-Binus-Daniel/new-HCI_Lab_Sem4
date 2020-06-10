@@ -28,8 +28,15 @@ input[type=reset],input[type=button]{
     -webkit-appearance: revert;
     -moz-appearance: revert;
 
+    border-color: rgb(67, 116, 185);
+    background-color: rgba(67, 116, 185, 0);
     cursor: pointer;
     width: 10%;
+}
+input[type=reset]:hover,input[type=button]:hover{
+    background-color: rgba(67, 116, 185, 100);
+    color: white;
+    transition-duration: .4s;
 }
 input[type=checkbox]{
     width: initial;

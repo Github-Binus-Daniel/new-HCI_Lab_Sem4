@@ -26,6 +26,7 @@ div{
 
 /* Header  */
 header img{
+    height: 235px;
     width: 100%;
     display: block;
 }
