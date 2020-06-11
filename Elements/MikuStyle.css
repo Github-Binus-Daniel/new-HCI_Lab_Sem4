@@ -106,11 +106,21 @@ nav ol li:hover .dropdown
 /* 800 Windows CSS */
 @media screen and (max-width: 800px) {
     nav{
-        display: block;
         height: 250px;
-
     }
-    nav div{
+    nav ol
+    {
         text-align: left;
     }
+
+    nav ol li
+    {
+        display: block;
+    }
+
+    .dropdown
+    {
+        position: relative;
+    }
+
 }
