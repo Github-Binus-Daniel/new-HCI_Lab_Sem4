@@ -1,0 +1,12 @@
+table tr td
+{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.line
+{
+    border-style: solid;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-top: 0cm;
+}
