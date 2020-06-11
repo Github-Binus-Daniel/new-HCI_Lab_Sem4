@@ -30,30 +30,57 @@ header img{
     width: 100%;
     display: block;
 }
-nav{
-    display: inline-flex;
+ nav{
+    display: inline-block;
     width: 100%;
-
     background-color: rgb(67, 116, 185);
-    position: relative;
-    box-sizing: border-box;
-
-    overflow: hidden;
     height: 50px;
     transition-duration: .5s;
 }
-nav div{
-    position: relative;
-    width: 100%;
+
+nav ol li
+{
+    display: inline-block; 
 }
-nav div:hover{
-    background-color: cornflowerblue;
-}
-nav a{
+
+nav ol li a
+{
     display: block;
     padding: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
     text-decoration: none;
     color: black;
+    font-weight: bold;
+}
+
+nav ol li:hover
+{
+    background-color: cornflowerblue;
+}
+
+.dropdown
+{
+    display:none;
+    position: absolute;
+}
+
+.dropdown ol li
+{
+    display:block;
+    background-color: rgb(67, 116, 185);
+}
+
+.dropdown ol li a
+{
+    display:block;
+    padding-left: 41.5px;
+    padding-right: 41.5px;
+}
+
+nav ol li:hover .dropdown
+{
+    display: block;
 }
 
 /* Content */
