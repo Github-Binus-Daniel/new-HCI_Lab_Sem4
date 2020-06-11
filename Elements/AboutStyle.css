@@ -1,9 +1,11 @@
 .sosmed
 {
     text-align: right;
+    
 }
 .sosmed a img
 {
+    vertical-align: middle;
     height: 25pt;
     width: 25pt;
 }
