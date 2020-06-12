@@ -22,6 +22,11 @@ footer{
 div{
     transition-duration: 0.5s;
 }
+p{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
 
 
 /* Header  */

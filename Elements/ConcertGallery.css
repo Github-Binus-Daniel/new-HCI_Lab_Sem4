@@ -3,7 +3,7 @@
 }
 .concertGallery div{
     align-self: center;
-    width: 500px;
+    width: 600px;
     margin: auto;
     margin-bottom: 5px;
     border: black solid 1px;
@@ -13,7 +13,7 @@
 }
 .concertGallery img{
     display: block;
-    width: 500px;
+    width: 600px;
     margin: auto;
 }
 .concertGallery span{

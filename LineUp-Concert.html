@@ -4,92 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Line-Up Concert</title>
+    <link rel="stylesheet" href="Elements/MikuStyle.css">
     <link rel="stylesheet" href="Elements/LineUpStyle.css">
 </head>
 <body>
     
-    <table>
-        <tr>
-            <th class="line">Event Title</th>
-            <th class="line">Date</th>
-            <th class="line">City</th>
-        </tr>
-        <tr>
-            <td>Hatsune Miku Expo 2020 Europe</td>
-            <td class="line">Jan 11, 2020</td>
-            <td class="line">London</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td class="line">Jan 16, 2020</td>
-            <td class="line">Paris</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td class="line">Jan 20, 2020</td>
-            <td class="line">Berlin</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td class="line">Jan 24, 2020</td>
-            <td class="line">Amsterdam</td>
-        </tr>
-        <tr>
-            <td class="line"></td>
-            <td class="line">Jan 28, 2020</td>
-            <td class="line">Barcelona</td>
-        </tr>
-        <tr>
-            <td>Hatsune Miku Expo 2019 Taiwan & Hongkong</td>
-            <td class="line">May 11, 2019</td>
-            <td class="line">New Taipe City</td>
-        </tr>
-        <tr>
-            <td class="line"></td>
-            <td class="line">July 27, 2019</td>
-            <td class="line">Hong Kong</td>
-        </tr>
-        <tr>
-            <td>Hatsune Miku Expo 2018 Europe</td>
-            <td class="line">Dec 1, 2018</td>
-            <td class="line">Paris</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td class="line">Dec 4, 2018</td>
-            <td class="line">Cologne</td>
-        </tr>
-        <tr>
-            <td class="line"></td>
-            <td class="line">Dec 8, 2018</td>
-            <td class="line">London</td>
-        </tr>
-        <tr>
-            <td class="line">Hatsune Miku Expo 2017 in Malaysia</td>
-            <td class="line">Dec 16, 2017</td>
-            <td class="line">Kuala Lumpur</td>
-        </tr>
-        <tr>
-            <td>Hatsune Miku Expo 2016 in China Tour</td>
-            <td class="line">Dec 10-11, 2016</td>
-            <td class="line">Beijing</td>
-        </tr>
-        <tr>
-            <td class="line"></td>
-            <td class="line">Dec 3-4, 2016</td>
-            <td class="line">Shanghai</td>
-        </tr>
-        <tr>
-            <td class="line">Hatsune Miku Expo 2015 in Shanghai</td>
-            <td class="line">June 27-28, 2015</td>
-            <td class="line">Shanghai</td>
-        </tr>
-        <tr>
-            <td class="line">Hatsune Miku Expo 2014 in Indonesia</td>
-            <td class="line">May 28-29, 2014</td>
-            <td class="line">Jakarta</td>
-        </tr>
-    </table>
+    <header>
+        <img src="Elements/Header.png">
+    </header>
 
+    <nav>
+        <ol>
+            <li>
+                <a href="Home.html">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+
+                <div class="dropdown">
+                    <ol>
+                        <li>
+                            <a href="About.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="LineUp-Concert.html">Line-Up Concert</a>
+                        </li>
+                    </ol>
+                </div>
+
+            </li>
+            <li>
+                <a href="Concert Gallery.html">Concert Gallery</a>
+            </li>
+            <li>
+                <a href="Merch Store.html">Merch Store</a>
+            </li>
+            <li>
+                <a href="Buy Ticket.html">Purchase Ticket</a>
+            </li>
+        </ol>
+    </nav>
+    <div class="content">
+
+        <table>
+            <caption>
+                Concert Schedule
+            </caption>
+            <thead>
+                <tr>
+                    <th>Event Title</th>
+                    <th>Date</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5">Hatsune Miku Expo 2020 Europe</td>
+                    <td>Jan 11, 2020</td>
+                    <td>London</td>
+                </tr>
+                <tr>
+                    <td>Jan 16, 2020</td>
+                    <td>Paris</td>
+                </tr>
+                <tr>
+                    <td>Jan 20, 2020</td>
+                    <td>Berlin</td>
+                </tr>
+                <tr>
+                    <td>Jan 24, 2020</td>
+                    <td>Amsterdam</td>
+                </tr>
+                <tr>
+                    <td>Jan 28, 2020</td>
+                    <td>Barcelona</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Hatsune Miku Expo 2019 Taiwan & Hongkong</td>
+                    <td>May 11, 2019</td>
+                    <td>New Taipei City</td>
+                </tr>
+                <tr>
+                    <td>July 27, 2019</td>
+                    <td>Hong Kong</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Hatsune Miku Expo 2018 Europe</td>
+                    <td>Dec 1, 2018</td>
+                    <td>Paris</td>
+                </tr>
+                <tr>
+                    <td>Dec 4, 2018</td>
+                    <td>Cologne</td>
+                </tr>
+                <tr>
+                    <td>Dec 8, 2018</td>
+                    <td>London</td>
+                </tr>
+                <tr>
+                    <td rowspan="1">Hatsune Miku Expo 2017 in Malaysia</td>
+                    <td>Dec 16, 2017</td>
+                    <td>Kuala Lumpur</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Hatsune Miku Expo 2016 in China Tour</td>
+                    <td>Dec 10-11, 2016</td>
+                    <td>Beijing</td>
+                </tr>
+                <tr>
+                    <td>Dec 3-4, 2016</td>
+                    <td>Shanghai</td>
+                </tr>
+                <tr>
+                    <td rowspan="1">Hatsune Miku Expo 2015 in Shanghai</td>
+                    <td>June 27-28, 2015</td>
+                    <td>Shanghai</td>
+                </tr>
+                <tr>
+                    <td rowspan="1">Hatsune Miku Expo 2014 in Indonesia</td>
+                    <td>May 28-29, 2014</td>
+                    <td>Jakarta</td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+    </div>
+    <footer>
+        "HCI Group 2 © 2020 - Miku e-SKpo"
+    </footer>
 </body>
 </html>
