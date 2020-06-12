@@ -16,6 +16,7 @@
 }
 .itemlist img{
     height: 205px;
+    width: 205px;
 }
 .itemlist input{
     background-color: red;
