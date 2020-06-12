@@ -37,3 +37,8 @@
     display: block;
     float: left;
 }
+
+.content p
+{
+    font-weight: bold;
+}
